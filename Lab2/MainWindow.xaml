@@ -1,0 +1,68 @@
+﻿<Window x:Class="Lab2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="640">
+    <Grid RenderTransformOrigin="0.502,0.496" Margin="0,0,2,3">
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="31,221,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.644,0.568" Click="AddPlayer"/>
+        <Label Content="Имя" HorizontalAlignment="Left" Margin="17,23,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="NameField" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="99,26,0,0"/>
+        <Label Content="Фамилия" HorizontalAlignment="Left" Margin="17,58,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="SurnameField" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="99,61,0,0" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.082"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Зарплата" HorizontalAlignment="Left" Margin="17,177,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="SalaryField" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="99,182,0,0" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.082"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Nickname" HorizontalAlignment="Left" Margin="17,97,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="NicknameField" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="99,102,0,0" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.082"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Позиция" HorizontalAlignment="Left" Margin="17,137,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="PositionField" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="99,142,0,0" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.082"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Button Content="Изменить" Click="ChangePlayerInfo" HorizontalAlignment="Left" Margin="144,221,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.644,0.568"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="323,23,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.348,3.997"/>
+        <TextBox Name="NameToDelete" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="406,26,0,0"/>
+        <Button Content="Удалить" Click="DeletePlayer" HorizontalAlignment="Left" Margin="406,103,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.644,0.568"/>
+        <TextBlock Name="LogField" HorizontalAlignment="Left" Margin="31,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564" Height="151"/>
+        <Label Content="Surname" HorizontalAlignment="Left" Margin="323,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.348,3.997"/>
+        <TextBox x:Name="SurNameToDelete" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="406,58,0,0"/>
+        <Button Content="Вывести игроков" Click="PrintPlayers" HorizontalAlignment="Left" Margin="323,221,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.644,0.568"/>
+        <Button Content="Лог" Click="PrintLog" HorizontalAlignment="Left" Margin="488,221,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="-0.644,0.568"/>
+
+    </Grid>
+</Window>

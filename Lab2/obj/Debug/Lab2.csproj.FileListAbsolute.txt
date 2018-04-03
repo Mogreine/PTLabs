@@ -1,0 +1,45 @@
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\Lab2_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\Lab2_MarkupCompile.lref
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\bin\Debug\Lab2.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\bin\Debug\Lab2.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\Lab2.g.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\Lab2.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\Lab2\Lab2\obj\Debug\Lab2.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\bin\Debug\Lab2.exe.config
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\bin\Debug\Lab2.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\bin\Debug\Lab2.pdb
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\App.g.cs
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\Lab2_MarkupCompile.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\Lab2_MarkupCompile.lref
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\MainWindow.baml
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\Lab2.g.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\Lab2.exe
+C:\Users\Admin\Documents\Visual Studio 2017\Projects\PTLabs\Lab2\obj\Debug\Lab2.pdb
+V:\GitLib\PTLabs\Lab2\bin\Debug\Lab2.exe.config
+V:\GitLib\PTLabs\Lab2\bin\Debug\Lab2.exe
+V:\GitLib\PTLabs\Lab2\bin\Debug\Lab2.pdb
+V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+V:\GitLib\PTLabs\Lab2\obj\Debug\MainWindow.g.cs
+V:\GitLib\PTLabs\Lab2\obj\Debug\App.g.cs
+V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2_MarkupCompile.cache
+V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2_MarkupCompile.lref
+V:\GitLib\PTLabs\Lab2\obj\Debug\MainWindow.baml
+V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.g.resources
+V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
+V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.exe
+V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.pdb
