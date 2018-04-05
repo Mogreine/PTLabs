@@ -43,3 +43,17 @@ V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
 V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.csproj.CoreCompileInputs.cache
 V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.exe
 V:\GitLib\PTLabs\Lab2\obj\Debug\Lab2.pdb
+D:\git\PTLabs\Lab2\bin\Debug\Lab2.exe.config
+D:\git\PTLabs\Lab2\bin\Debug\Lab2.exe
+D:\git\PTLabs\Lab2\bin\Debug\Lab2.pdb
+D:\git\PTLabs\Lab2\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+D:\git\PTLabs\Lab2\obj\Debug\MainWindow.g.cs
+D:\git\PTLabs\Lab2\obj\Debug\App.g.cs
+D:\git\PTLabs\Lab2\obj\Debug\Lab2_MarkupCompile.cache
+D:\git\PTLabs\Lab2\obj\Debug\Lab2_MarkupCompile.lref
+D:\git\PTLabs\Lab2\obj\Debug\MainWindow.baml
+D:\git\PTLabs\Lab2\obj\Debug\Lab2.g.resources
+D:\git\PTLabs\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+D:\git\PTLabs\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+D:\git\PTLabs\Lab2\obj\Debug\Lab2.exe
+D:\git\PTLabs\Lab2\obj\Debug\Lab2.pdb

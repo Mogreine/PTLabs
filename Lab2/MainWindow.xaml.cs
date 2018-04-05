@@ -37,7 +37,7 @@ namespace Lab2
                     "Необходимо ввести данные во все поля",
                     "Ошибка",
                     MessageBoxButton.OK,
-                    MessageBoxImage.Information,
+                    MessageBoxImage.Error,
                     MessageBoxResult.OK,
                     MessageBoxOptions.DefaultDesktopOnly);
             }
@@ -64,7 +64,7 @@ namespace Lab2
                     "Необходимо ввести данные во все поля",
                     "Ошибка",
                     MessageBoxButton.OK,
-                    MessageBoxImage.Information,
+                    MessageBoxImage.Error,
                     MessageBoxResult.OK,
                     MessageBoxOptions.DefaultDesktopOnly);
             }
@@ -85,24 +85,37 @@ namespace Lab2
 
         private void DeletePlayer(object sender, RoutedEventArgs e)
         {
-            var res = MessageBox.Show(
-                "Вы уверены, что хотите удалить игрока из базы данных?", 
-                "Удаление", 
-                MessageBoxButton.YesNo, 
-                MessageBoxImage.Information, 
-                MessageBoxResult.OK, 
-                MessageBoxOptions.DefaultDesktopOnly);
-            if (res == MessageBoxResult.Yes)
+            if (NameToDelete.Text == "" || SurNameToDelete.Text == "")
             {
-                Tuple<string, string> name = new Tuple<string, string>(NameField.Text, SurnameField.Text);
-                if (collection.ContainsKey(name))
+                MessageBox.Show(
+                    "Необходимо ввести данные во все поля",
+                    "Ошибка",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Error,
+                    MessageBoxResult.OK,
+                    MessageBoxOptions.DefaultDesktopOnly);
+            }
+            else
+            {
+                var res = MessageBox.Show(
+                    "Вы уверены, что хотите удалить игрока из базы данных?",
+                    "Удаление",
+                    MessageBoxButton.YesNo,
+                    MessageBoxImage.Information,
+                    MessageBoxResult.OK,
+                    MessageBoxOptions.DefaultDesktopOnly);
+                if (res == MessageBoxResult.Yes)
                 {
-                    collection.Remove(name);
-                    LogField.Text += String.Format("Игрок {0} {1} успешно удален\n", name.Item1, name.Item2);
-                }
-                else
-                {
-                    LogField.Text += String.Format("Игрок {0} {1} отсутствует в базе данных\n", name.Item1, name.Item2);
+                    Tuple<string, string> name = new Tuple<string, string>(NameToDelete.Text, SurNameToDelete.Text);
+                    if (collection.ContainsKey(name))
+                    {
+                        collection.Remove(name);
+                        LogField.Text += String.Format("Игрок {0} {1} успешно удален\n", name.Item1, name.Item2);
+                    }
+                    else
+                    {
+                        LogField.Text += String.Format("Игрок {0} {1} отсутствует в базе данных\n", name.Item1, name.Item2);
+                    }
                 }
             }
         }
@@ -111,7 +124,7 @@ namespace Lab2
         {
             if (collection.Count == 0)
             {
-                LogField.Text += "Нет никаких игроков в базе данных";
+                LogField.Text += "Нет никаких игроков в базе данных\n";
             }
             else
             {
@@ -119,7 +132,7 @@ namespace Lab2
                 LogField.Text = "";
                 foreach (var player in collection)
                 {
-                    LogField.Text += String.Format("{0} {1} {2} {3} {4}\n", player.Value.Name, player.Value.Surname, player.Value.Nickname, player.Value.Position, player.Value.Salary);
+                    LogField.Text += String.Format("{0}\t{1}\t{2}\t{3}\t{4}\n", player.Value.Name, player.Value.Surname, player.Value.Nickname, player.Value.Position, player.Value.Salary);
                 }
             }
         }
@@ -132,7 +145,7 @@ namespace Lab2
             }
             else
             {
-                LogField.Text = "Логи пусты";
+                LogField.Text = "Логи пусты\n";
             }
         }
 
