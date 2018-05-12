@@ -1,0 +1,6 @@
+D:\git\PTLabs\Dekorator\bin\Debug\Dekorator.exe.config
+D:\git\PTLabs\Dekorator\bin\Debug\Dekorator.exe
+D:\git\PTLabs\Dekorator\bin\Debug\Dekorator.pdb
+D:\git\PTLabs\Dekorator\obj\Debug\Dekorator.csprojResolveAssemblyReference.cache
+D:\git\PTLabs\Dekorator\obj\Debug\Dekorator.exe
+D:\git\PTLabs\Dekorator\obj\Debug\Dekorator.pdb

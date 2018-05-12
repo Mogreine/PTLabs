@@ -1,0 +1,6 @@
+D:\git\PTLabs\Lab3\bin\Debug\Lab3.exe.config
+D:\git\PTLabs\Lab3\bin\Debug\Lab3.exe
+D:\git\PTLabs\Lab3\bin\Debug\Lab3.pdb
+D:\git\PTLabs\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+D:\git\PTLabs\Lab3\obj\Debug\Lab3.exe
+D:\git\PTLabs\Lab3\obj\Debug\Lab3.pdb

@@ -1,0 +1,5 @@
+D:\git\PTLabs\Lab4\bin\Debug\Lab4.exe.config
+D:\git\PTLabs\Lab4\bin\Debug\Lab4.exe
+D:\git\PTLabs\Lab4\bin\Debug\Lab4.pdb
+D:\git\PTLabs\Lab4\obj\Debug\Lab4.exe
+D:\git\PTLabs\Lab4\obj\Debug\Lab4.pdb

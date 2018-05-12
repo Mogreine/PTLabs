@@ -58,7 +58,7 @@
         <Label Content="Name" HorizontalAlignment="Left" Margin="323,23,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.348,3.997"/>
         <TextBox Name="NameToDelete" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="406,26,0,0"/>
         <Button Content="Удалить" Click="DeletePlayer" HorizontalAlignment="Left" Margin="406,103,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.644,0.568"/>
-        <TextBlock UseLayoutRounding="True" Name="LogField" HorizontalAlignment="Left" Margin="31,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564" Height="151"/>
+        <TextBlock Name="LogField" HorizontalAlignment="Left" Margin="31,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564" Height="151"/>
         <Label Content="Surname" HorizontalAlignment="Left" Margin="323,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.348,3.997"/>
         <TextBox x:Name="SurNameToDelete" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="406,58,0,0"/>
         <Button Content="Вывести игроков" Click="PrintPlayers" HorizontalAlignment="Left" Margin="323,221,0,0" VerticalAlignment="Top" Width="115" RenderTransformOrigin="-0.644,0.568"/>
